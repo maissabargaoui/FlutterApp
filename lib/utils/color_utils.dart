@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 hexStringToColor(String hexColor) {
   hexColor = hexColor.toUpperCase().replaceAll("#", "");
   if (hexColor.length == 6) {
@@ -7,3 +8,6 @@ hexStringToColor(String hexColor) {
   }
   return Color(int.parse(hexColor, radix: 16));
 }
+
+
+// See this : https://convertingcolors.com
